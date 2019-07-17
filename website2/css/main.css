@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: GothamRounded;
+}
+
+.header{
+    background: url(/website2/images/bg-image.jpg);
+    background-size: 100% 100%;
+    height: 55%;
+}
+
+.container{
+    display: flex;
+}
+
+#left-header{
+    color: white;
+    font-size: 360%;
+    margin: 1.5% 12%;
+}
+
+#right-header{
+    margin-top: 3%;
+    font-size: 130%;
+    width: 100%;
+}
+
+#right-header a{
+    color: white;
+    text-decoration: none;
+    margin-right: 1%;
+    margin-left: 1%;
+    padding: 1% 1%;
+}
+
+#signin{
+    padding: 1% 1%;
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+#right-header a:hover{
+    padding: 1% 1%;
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+.heading-tags{
+    color: white;
+    margin-left: 12%;
+}
+
+.header-button{
+    color:white;
+    background-color: aqua;
+    border-radius: 20px;
+    border-color: aqua;
+    width: 25%;
+    padding:0.5% 0%;
+    font-size: 130%;
+    margin-top: 1.5%;
+}
+
+.header-button:hover{
+    color:wheat;
+}
+
+#h1-heading{
+    font-size: 200%;
+}
+
+.download-option{
+    height: 15%;
+    display: flex;
+    margin-left: 22%;
+    margin-top: 3%;
+}
+
+.download-option img{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.card-section{
+    display: flex;
+    text-align: center;
+    margin: 5% 10% 1% 10%;
+}
+
+.card-1{
+    display: block;
+    width: 30%;
+    box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 3px rgba(0,0,0,.45);
+    border-radius: 10px;
+    margin: 2% 2% 0% 2%;
+    padding: 2% 2% 0% 2%;
+}
+
+.card-1 img{
+    border-radius: 100px;
+}
+
+.card-1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.card-1 a h{
+    font-size: 150%;
+}
+
+.card-1 a h:hover{
+    color: #666;
+}
+
+.other-courses a{
+    color: aqua;
+    text-decoration: none;
+    font-size: 90%;
+    margin-left: 44%;
+}
+
+.other-courses a:hover{
+    text-decoration: underline;
+}
+
+.learning-1{
+    margin-top: 2%;
+    color: white;
+    display: flex;
+    background-color: #222;
+    width: 100%;
+    height: 40%;
+
+}
+
+.learning-2{
+    background-color: #666;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    width: 100%;
+}
+
+.learning-1 p span{
+    font-size: 165%;
+    color: greenyellow;
+}
+
+#devices{
+    height: 110%;
+    width: 50%;
+}
+
+.box{
+    width: 500px;
+    padding: 40px;
+    margin: 200px auto;
+    color: red;
+    font-size: 20px;
+    text-align: justify;
+    border: 2px solid gray;
+    position: relative;
+}
+
+.box:before{
+    content: '';
+    width: 40px;
+    height: 40px;
+    background: white;
+    position: absolute;
+    bottom: -23px;
+    right: 45%;
+    transform: translate(-50%) rotate(45deg);
+    border-right: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
